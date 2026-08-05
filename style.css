@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: sticky;
+    padding: 0.5%;
+    top : 0;
+}
+header nav{
+   
+    background-color: #48044b;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header nav ul li{
+    padding: 1%;
+    background-color: #210019;
+    border-radius: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: larger;
+}
+#bienvenida{
+    background-image: url("gengar.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40%;
+}
+main div{
+    padding: 9%;
+}
+main div h1{
+    color: #ffffff;
+    font-size: xx-large;
+    text-align: left;
+}
