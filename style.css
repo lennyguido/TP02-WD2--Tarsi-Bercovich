@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
 }
+a{
+    color: inherit;
+    text-decoration: none;
+}
 header{
     position: sticky;
-    padding: 0.5%;
     top : 0;
 }
 header nav{
-   
-    background-color: #48044b;
+   padding: 1%;
+    background-color: #d1e8f5;
 }
 header nav ul{
     display: flex;
@@ -18,25 +21,96 @@ header nav ul{
 }
 header nav ul li{
     padding: 1%;
-    background-color: #210019;
+    background-color: #8d8ffc;
     border-radius: 20px;
 }
 header nav ul li a{
     text-decoration: none;
-    color: #ffffff;
+    color: #fffeb6;
     font-size: larger;
 }
+
+
+
+
+.ubicacion{
+    display: flex;
+    justify-content: space-between;
+   background-color: #6fcdf3;
+   padding: 5%;
+}
+.ubicacion div h1{
+    font-family: "Montserrat" ;
+    text-align: center;
+    color : white;
+    font-size: 50px;
+}
+.ubicacion div h2{
+    font-family: "Montserrat" ;
+    text-align: center;
+    color : rgb(139, 137, 137);
+        font-size: 40px;
+
+}
+.ubicacion div a{
+    background-color: rgb(206, 218, 206);
+    display: block;
+    padding: 3%;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10%;
+    font-size: 30px;
+    border: 2px solid #888786;
+}
+.ubicacion div a:hover{
+    background-color: rgb(245, 255, 245);
+    display: block;
+    padding: 3%;
+    border-radius: 50px;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 10%;
+    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.35);
+}
+
+.mapa{
+    margin: 1%;
+    padding: 2%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 40px;
+}
 #bienvenida{
-    background-image: url("gengar.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 40%;
-}
-main div{
-    padding: 9%;
-}
-main div h1{
+    
+    background-image: url(https://i.postimg.cc/Y0FtHvsy/IMG-5313.png);
+    font-family: "Dancing Script", cursive;
+    font-size: 25px;
     color: #ffffff;
-    font-size: xx-large;
-    text-align: left;
+    padding: 9% ;
+    text-shadow: (20,20,20,0.42) #888786;
+
+}
+#bienvenida h1{
+   text-align: center;
+}
+
+footer{
+    background-color: #d1e8f5;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p{
+    color: #888786;
+    font-size: larger;
+    text-align: right;
+}
+
+footer a{
+    background-color: #4d4d4e;
+    color: #fffeb6;
+    margin-right: 10px;
 }
