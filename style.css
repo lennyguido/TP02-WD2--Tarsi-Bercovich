@@ -114,3 +114,144 @@ footer a{
     color: #fffeb6;
     margin-right: 10px;
 }
+
+/* Catálogo (productos) */
+
+.catalogo{
+    padding: 5%;
+    text-align: center;
+}
+.catalogo h1{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+    font-size: 45px;
+}
+.catalogo h2{
+    font-family: "Montserrat";
+    color: rgb(139, 137, 137);
+    font-size: 25px;
+}
+.grilla-productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.producto{
+    background-color: #ffffff;
+    border: 1px solid #888786;
+    border-radius: 20px;
+    padding: 4%;
+    text-align: center;
+}
+.producto img{
+    width: 100%;
+    border-radius: 15px;
+}
+.producto h3{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+    margin-top: 3%;
+}
+.precio{
+    font-weight: bold;
+    color: #8d8ffc;
+}
+
+/* Sobre nosotros */
+
+.historia{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d1e8f5;
+    padding: 5%;
+}
+.historia img{
+    width: 40%;
+    border-radius: 30px;
+}
+.historia div{
+    width: 50%;
+}
+.historia h1{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+}
+.valores{
+    padding: 5%;
+    text-align: center;
+}
+.valores h2{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+    font-size: 35px;
+}
+.grilla-valores{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4%;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.valor{
+    background-color: #fffeb6;
+    border-radius: 20px;
+    padding: 5%;
+}
+.valor h3{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+}
+
+/* Contacto */
+
+.contacto{
+    padding: 5%;
+    text-align: center;
+}
+.contacto h1{
+    font-family: "Montserrat";
+    color: #4d4d4e;
+    font-size: 45px;
+}
+.contacto h2{
+    font-family: "Montserrat";
+    color: rgb(139, 137, 137);
+    font-size: 25px;
+}
+.contacto-form{
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: center;
+}
+.contacto-form input{
+    display: block;
+    width: 90%;
+    padding: 3%;
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: 2px solid #888786;
+    border-radius: 20px;
+    font-size: larger;
+}
+.contacto-form button{
+    display: block;
+    width: 50%;
+    margin-top: 4%;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: #8d8ffc;
+    color: #fffeb6;
+    border-radius: 50px;
+    padding: 3%;
+    font-size: 30px;
+}
