@@ -209,7 +209,7 @@ footer a{
     padding: 5%;
 }
 .historia img{
-    width: 40%;
+    width: 20%;
     border-radius: 30px;
 }
 .historia div{
@@ -218,6 +218,10 @@ footer a{
 .historia h1{
     font-family: "Montserrat";
     color: #4d4d4e;
+    
+}
+.historia p{
+    margin-top: 12%;
 }
 .valores{
     padding: 5%;
