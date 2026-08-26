@@ -79,9 +79,30 @@ footer a{
     border-radius: 10px;
 }
 
+.Texto{
+    text-align: center;
+     background-color: #6fcdf3;
+     padding-top: 3%;
+}
 
 
+.Recomendaciones{
+    display: flex;
+    
+   background-color: #6fcdf3;
+   padding: 5%;
+}
 
+.Recomendaciones div{
+    padding: 2%;
+    background-color: #8d8ffc;
+    border-radius: 50px;
+    margin: 1%;
+}
+.Recomendaciones div p{
+    color: white;
+    font-size: large;
+}
 
 
 .ubicacion{
@@ -142,15 +163,16 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    font-family: "Dancing Script", cursive;
-    font-size: 25px;
-    color: #000000;
+    font-family: "Roboto";
+    font-size: 50px;
+    color: #ffffff;
     padding: 9% ;
     text-shadow: (20,20,20,0.42) #888786;
 
 }
 #bienvenida h1{
    text-align: center;
+   
 }
 
 
