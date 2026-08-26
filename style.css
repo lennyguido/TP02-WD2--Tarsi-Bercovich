@@ -107,9 +107,12 @@ footer a{
 
 .ubicacion{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
    background-color: #6fcdf3;
-   padding: 5%;
+   padding: 2%;
+}
+.inicio{
+    margin-top: 5%;
 }
 .ubicacion div h1{
     font-family: "Montserrat" ;
@@ -124,6 +127,12 @@ footer a{
         font-size: 40px;
 
 }
+
+.ubicacion img{
+    width: 70%;
+}
+
+
 .ubicacion div a{
     background-color: rgb(206, 218, 206);
     display: block;
@@ -152,6 +161,7 @@ footer a{
 .mapa{
     margin: 1%;
     padding: 2%;
+    margin-bottom: 2%;
     background-color: #ffffff;
     border: 1px solid black;
     border-radius: 40px;
@@ -176,7 +186,6 @@ footer a{
 }
 
 
-/* Catálogo (productos) */
 
 .catalogo{
     padding: 5%;
