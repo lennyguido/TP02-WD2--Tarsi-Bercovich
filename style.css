@@ -1,3 +1,5 @@
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,13 +7,19 @@
 a{
     text-decoration: none;
 }
+body{
+    font-family: "Roboto";
+    color: #2c3e50;
+}
+
 header{
     position: sticky;
-    top : 0;
-    border-bottom: 1px solid black;
+    top: 0;
+    border-bottom: 1px solid #2c3e50;
+    background-color: #ffffff;
 }
 header nav{
-   padding: 1%;
+    padding: 1%;
     background-color: #d1e8f5;
 }
 header nav ul{
@@ -21,154 +29,128 @@ header nav ul{
 }
 header nav ul li{
     padding: 1%;
-    background-color: rgb(206, 218, 206);
+    background-color: #ffffff;
     border-radius: 30px;
     margin-left: 1%;
-    
 }
 header nav ul li a{
     text-decoration: none;
-    color: #000000;
+    color: #2c3e50;
     font-size: larger;
 }
 header nav ul li a:hover{
     text-decoration: none;
     color: #ff9c8f;
     font-size: larger;
-
 }
 header div{
     float: left;
-   
     padding-top: 1.5%;
-    padding-left:1%;
-    
-    
+    padding-left: 1%;
 }
 header div a {
-        text-decoration: none;
-    color: grey;
-font-size: 40px;
+    text-decoration: none;
+    color: #2c3e50;
+    font-size: 40px;
 }
 header div:hover{
-    float: left;
-    color: rgb(85, 110, 98);
-    padding-top: 1.5%;
-    padding-left:1%;
+    color: #ff9c8f;
 }
 
 footer{
     background-color: #d1e8f5;
-    padding:  2%;
+    padding: 2%;
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid black;
+    border-top: 1px solid #2c3e50;
 }
-
+footer h3{
+    color: #2c3e50;
+    margin-bottom: 3%;
+}
 footer p{
-    color: #888786;
+    color: #2c3e50;
     font-size: larger;
-    
 }
-
 footer a{
-    display:flex;
-        justify-content: column ;
-
-    color: #000000;
+    display: block;
+    color: #2c3e50;
     border-radius: 10px;
+    margin-bottom: 2%;
+    font-size: larger;
+}
+footer a:hover{
+    color: #ff9c8f;
 }
 
-.Texto{
-    text-align: center;
-     background-color: #6fcdf3;
-     padding-top: 3%;
-}
-
-
-.Recomendaciones{
-    display: flex;
-    
-   background-color: #6fcdf3;
-   padding: 5%;
-}
-
-.Recomendaciones div{
-    padding: 2%;
-    background-color: #8d8ffc;
-    border-radius: 50px;
-    margin: 1%;
-}
-.Recomendaciones div p{
-    color: white;
-    font-size: large;
-}
-
-
-.ubicacion{
+.argumento{
     display: flex;
     justify-content: space-around;
-   background-color: #6fcdf3;
-   padding: 2%;
-}
-.inicio{
-    margin-top: 5%;
-}
-.ubicacion div h1{
-    font-family: "Montserrat" ;
-    text-align: center;
-    color : white;
-    font-size: 50px;
-}
-.ubicacion div h2{
-    font-family: "Montserrat" ;
-    text-align: center;
-    color : rgb(139, 137, 137);
-        font-size: 40px;
-
-}
-
-.ubicacion img{
-    width: 70%;
-}
-
-
-.ubicacion div a{
-    background-color: rgb(206, 218, 206);
-    display: block;
+    align-items: center;
+    background-color: #eaf7fd;
     padding: 3%;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align: center;
-    color: white;
-    margin-top: 10%;
-    font-size: 30px;
-    border: 2px solid #888786;
 }
-.ubicacion div a:hover{
-    background-color: rgb(245, 255, 245);
-    display: block;
-    padding: 3%;
-    border-radius: 50px;
-    text-decoration: none;
-    text-align: center;
-    margin-top: 10%;
-    box-shadow: 0 8px 20px rgba(255, 0, 0, 0.35);
-        color: black;
-
+.argumento-texto{
+    width: 45%;
 }
-
-.mapa{
-    margin: 1%;
-    padding: 2%;
-    margin-bottom: 2%;
+.argumento-texto h1{
+    font-family: "Montserrat";
+    color: #2c3e50; 
+    font-size: 45px;
+}
+.argumento-texto p{
+    margin-top: 4%;
+    font-size: 20px;
+    color: #2c3e50;
+}
+.argumento-texto a{
+    display: inline-block;
+    background-color: #ff9c8f;
+    color: #ffffff;
+    padding: 3% 6%;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 6%;
+    border: 2px solid #ff9c8f;
+}
+.argumento-texto a:hover{
     background-color: #ffffff;
-    border: 1px solid black;
-    border-radius: 40px;
+    color: #ff9c8f;
 }
+.argumento-imagen{
+    width: 40%;
+    text-align: center;
+}
+.argumento-imagen img{
+    width: 90%;
+}
+
+.ventajas{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px;
+}
+.ventajas div{
+    background-color: #ffffff;
+    border: 2px solid #ff9c8f;
+    border-radius: 20px;
+    padding: 1%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+.ventajas div h3{
+    font-size: 28px;
+}
+.ventajas div p{
+    color: #2c3e50;
+    font-size: 14px;
+    margin-top: 2%;
+}
+
 #bienvenida{
-    
-    background-image: url(https://i.postimg.cc/Y0FtHvsy/IMG-5313.png);
+    background-image: url(imagenes/Banner.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -176,29 +158,29 @@ footer a{
     font-family: "Roboto";
     font-size: 50px;
     color: #ffffff;
-    padding: 9% ;
-    text-shadow: (20,20,20,0.42) #888786;
-
+    padding: 20%;
 }
-#bienvenida h1{
-   text-align: center;
-   
+#bienvenida h2{
+    text-align: center;
 }
 
-
-
+.destacados{
+    padding: 5%;
+    text-align: center;
+}
 .catalogo{
     padding: 5%;
     text-align: center;
 }
+.destacados h2,
 .catalogo h1{
     font-family: "Montserrat";
-    color: #4d4d4e;
-    font-size: 45px;
+    color: #2c3e50;
+    font-size: 40px;
 }
 .catalogo h2{
     font-family: "Montserrat";
-    color: rgb(139, 137, 137);
+    color: #6a8494;
     font-size: 25px;
 }
 .grilla-productos{
@@ -223,15 +205,64 @@ footer a{
 }
 .grilla-productos div h3{
     font-family: "Montserrat";
-    color: #4d4d4e;
+    color: #2c3e50;
     margin-top: 3%;
 }
 .precio{
     font-weight: bold;
-    color: #8d8ffc;
+    color: #ff9c8f;
+}
+.grilla-productos div button{
+    background-color: #ff9c8f;
+    color: #ffffff;
+    padding: 2% 8%;
+    border-radius: 50px;
+    font-size: 16px;
+    border: 2px solid #ff9c8f;
+}
+.grilla-productos div button:hover{
+    background-color: #ffffff;
+    color: #ff9c8f;
+}
+.destacados a{
+    display: inline-block;
+    background-color: #ff9c8f;
+    color: #ffffff;
+    padding: 2% 5%;
+    border-radius: 50px;
+    font-size: 22px;
+    margin-top: 5%;
+    border: 2px solid #ff9c8f;
+}
+.destacados a:hover{
+    background-color: #ffffff;
+    color: #ff9c8f;
 }
 
-/* Sobre nosotros */
+.subtitulo-recomendaciones{
+    text-align: center;
+    background-color: #6fcdf3;
+    color: #ffffff;
+    padding-top: 3%;
+}
+.recomendaciones{
+    display: flex;
+    background-color: #6fcdf3;
+    padding: 5%;
+}
+.recomendaciones div{
+    padding: 3%;
+    background-color: #ffffff;
+    border-radius: 30px;
+    margin: 1%;
+}
+.recomendaciones div p{
+    color: #2c3e50;
+    font-size: large;
+}
+.recomendaciones div p:first-child{
+    margin-bottom: 3%;
+}
 
 .historia{
     display: flex;
@@ -248,8 +279,7 @@ footer a{
 }
 .historia h1{
     font-family: "Montserrat";
-    color: #4d4d4e;
-    
+    color: #2c3e50;
 }
 .historia p{
     margin-top: 12%;
@@ -260,7 +290,7 @@ footer a{
 }
 .valores h2{
     font-family: "Montserrat";
-    color: #4d4d4e;
+    color: #2c3e50;
     font-size: 35px;
 }
 .grilla-valores{
@@ -272,17 +302,16 @@ footer a{
     margin-left: 5%;
     margin-right: 5%;
 }
-.valor{
-    background-color: #fffeb6;
+.grilla-valores div{
+    background-color: #eaf7fd;
+    border: 1px solid #6fcdf3;
     border-radius: 20px;
     padding: 5%;
 }
-.valor h3{
+.grilla-valores div h3{
     font-family: "Montserrat";
-    color: #4d4d4e;
+    color: #2c3e50;
 }
-
-/* Contacto */
 
 .contacto{
     padding: 5%;
@@ -290,22 +319,22 @@ footer a{
 }
 .contacto h1{
     font-family: "Montserrat";
-    color: #4d4d4e;
+    color: #2c3e50;
     font-size: 45px;
 }
 .contacto h2{
     font-family: "Montserrat";
-    color: rgb(139, 137, 137);
+    color: #6a8494;
     font-size: 25px;
 }
-.contacto-form{
+.contacto form{
     width: 50%;
     margin-top: 4%;
     margin-left: 25%;
     margin-right: 25%;
     text-align: center;
 }
-.contacto-form input{
+.contacto form input{
     display: block;
     width: 90%;
     padding: 3%;
@@ -316,15 +345,47 @@ footer a{
     border-radius: 20px;
     font-size: larger;
 }
-.contacto-form button{
+.contacto form button{
     display: block;
     width: 50%;
     margin-top: 4%;
     margin-left: 25%;
     margin-right: 25%;
-    background-color: #8d8ffc;
-    color: #fffeb6;
+    background-color: #ff9c8f;
+    color: #ffffff;
     border-radius: 50px;
     padding: 3%;
     font-size: 30px;
+    border: 2px solid #ff9c8f;
+}
+.contacto form button:hover{
+    background-color: #ffffff;
+    color: #ff9c8f;
+}
+@media (max-width:635px) 
+{
+    .argumento{
+        display: block;
+
+        padding-left:15% ;
+    }
+    .argumento-texto{
+        width: 100%;
+    }
+    .argumento-imagen{
+        width: 100%;
+
+        
+        }
+        .argumento-imagen img{
+            width: 50%;
+            padding-right: 22%;
+        }
+        .subtitulo-recomendaciones{
+            display: none;
+        }
+        .recomendaciones{
+            display: none;
+        }
+
 }
